@@ -2,43 +2,94 @@
 
 * {
   margin: 0px;
-}
-
-body {
+  padding: 0px;
   font-family: poppins, helvetica, arial, sans-serif;
 }
 
+/* Nav Bar */
+li {
+  display: inline;
+}
+
+ul {
+  display: inline;
+  position: absolute;
+  right: 5%;
+  top: 4%;
+}
+
+/*  End Nav Bar */
+
+footer {
+  background-color: #02040c;
+  text-align: center;
+  color: #fbfbfb;
+  padding: 5px;
+}
+
 /* Micro Style */
+
+/* hero-section */
+.hero-section {
+  height: 100vh;
+}
+
+.hero {
+  background-image: url(../img/championship.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.text-box {
+  position: relative;
+  top: 35%;
+  left: 20%;
+  max-width: 350px;
+  color: #fbfbfb;
+}
+
+/* End .hero-section */
+
+/* Nav Bar */
+.nav-link {
+  position: relative;
+  text-decoration: none;
+  color: #333333;
+  padding: 10px;
+}
+
+.nav-link:hover {
+  color: whitesmoke;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 20px;
+  transition: all 310ms;
+}
+
+.logo:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.navbar {
+  background-color: black;
+  padding: 20px;
+}
+
+/* End Nav Bar */
 
 .container {
   width: 100%;
   height: 100vh;
   position: relative;
-}
-
-/* players background and link */
-.container.jordan {
-  background: url(../img/jordan-win.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: right;
 }
 
-.container.kobe {
-  background: url(../img/kobe-win.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: right;
-}
-
-.container.lebron {
-  background: url(../img/lebron-win.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: right;
-}
-
-a {
+.players-link {
   position: absolute;
   top: 0px;
   right: 0px;
@@ -52,16 +103,25 @@ a {
   text-align: center;
 }
 
-p {
+.center-text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-footer {
-  background-color: #02040c;
-  text-align: center;
-  color: #fbfbfb;
-  padding: 5px;
+/* players background and link */
+.jordan {
+  background-image: url(../img/jordan-win.jpg);
 }
+
+.kobe {
+  background-image: url(../img/kobe-win.jpg);
+}
+
+.lebron {
+  background-image: url(../img/lebron-win.jpg);
+}
+/* End players background and link */
+
+/* End Micro Style */
