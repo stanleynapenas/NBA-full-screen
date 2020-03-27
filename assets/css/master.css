@@ -1,0 +1,67 @@
+/* Macro Style */
+
+* {
+  margin: 0px;
+}
+
+body {
+  font-family: poppins, helvetica, arial, sans-serif;
+}
+
+/* Micro Style */
+
+.container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+/* players background and link */
+.container.jordan {
+  background: url(../img/jordan-win.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: right;
+}
+
+.container.kobe {
+  background: url(../img/kobe-win.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: right;
+}
+
+.container.lebron {
+  background: url(../img/lebron-win.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: right;
+}
+
+a {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+  color: #fbfbfb;
+  font-weight: bold;
+  font-size: 42px;
+  text-align: center;
+}
+
+p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer {
+  background-color: #02040c;
+  text-align: center;
+  color: #fbfbfb;
+  padding: 5px;
+}
